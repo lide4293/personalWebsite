@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<body>
+    <nav class = "navbar navbar-expand-lg" style = "background-color: rgba(213, 212, 209, 0.42);">
+    <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../views/home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../views/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../views/hobbies.html">Hobbies</a>
+        </li>
+        </ul>
+         <a class="navbar-brand" href="#">
+        <img src = "../resources/img/funnyIcon.png" alt="Bootstrap" width="30" height="24">
+        </a>
+        </div>
+    </div>
+    </nav>
+    <br>
+    <h3 style = "text-align: center; font-size: x-large;"> 
+        Projects Page
+    </h3>
+    <br>
+    <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Coding Camps Pledge Project
+        </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <div class="row align-items-center">
+                <!-- image -->
+                <div class="col-md-4 text-center">
+                    <img 
+                        src="../resources/img/pledgeProject.png"
+                        style="max-width: 185px; height: 175px; object-fit:cover"
+                    >
+                </div>
+                <!-- text -->
+                <div class = "col-md-8">
+                <p>
+                    <strong> Used Git, C++, Java, Python, R, HTML/CSS (October 2024 - December 2024) </strong>
+                My team developed coding camps that teach Python, C++, Java, and R to college students looking to expand their coding knowledge.
+                We created a GitHub repository that contains curriculum outlines and presentations, code, our website, and a discussion section that holds resources and to-dos in order to maximize our team collaboration and efficiency.
+                We offered flexible times where students that have a desire to learn can attend the camp and retain a basic knowledge of several coding languages, as well as learn to apply these skills.
+                We also designed and published a web-site that gives interested students access to the curriculum, sign-ups, and schedule.
+                </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Vacation Day Scheduler
+        </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img 
+                        src="../resources/img/vacation.png"
+                        style="max-width: 185px; height: 175px; object-fit:cover"
+                    >
+                </div>
+        
+                <div class = "col-md-8">
+                    <p>
+                    <strong> Used Git, Java Script, HTML/CSS, React (February 2025 - April 2025)</strong>The Vacation Scheduling Tool is designed to efficiently allocate vacation slots to employees
+                    based on their requested dates, available openings, and seniority. The system aims to
+                    balance employee preferences while ensuring fairness and optimal slot distribution across
+                    different locations. The tool takes in three main inputs: a list of available slots by station,
+                    employee vacation requests, and employee seniority. The program prioritizes senior
+                    employees for popular vacation dates when slots are overbooked. If an employee's requested
+                    dates are unavailable, the system will automatically backfill vacation days from
+                    mid-November, working backwards, without considering seniority. The goal is to ensure each
+                    employee receives 14 vacation days while accommodating holiday peaks and giving
+                    employees flexibility for late-year adjustments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Lion King Game
+        </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img 
+                        src="../resources/img/lionKing.png"
+                        style="max-width: 175px; height: 175px; object-fit:cover"
+                    >
+                </div>
+        
+                <div class = "col-md-8">
+                    <p>
+                        <strong>Used VS Code (December 2024)</strong>
+                        I developed an interactive, 2-player, Lion-King themed game modeled after the Game of Life for children.
+                        It includes error handling in order to check if the user input is valid before executing functions.
+                        The game takes users through a journey of living as a lion with a visual board that you can see each player move along. Each
+                        color tile of the board triggers different events, some randomly generated, that affect the player's Stamina, Wisdom, Strength, and Pride Points. The user with the most Pride points at the end wins the game.
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+   
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="text-center d-flex justify-content-center justify-content-center p-4 border-bottom">
+
+        <!-- Right -->
+        <div>
+        <a href="https://www.instagram.com/linleydenslow/" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/linley-denslow" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/lide4293" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+        </a>
+        </div>
+        <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
